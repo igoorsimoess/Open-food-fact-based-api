@@ -1,6 +1,3 @@
-
-# PYTHON-CHALLENGE-20200205-OPEN-FOOD-FACTS 
-
 ## The Project
 
 API para retornar dados relevantes do Open Food Facts a fim de facilitar a obtenção desses dados para a Fitness Foods LC.
