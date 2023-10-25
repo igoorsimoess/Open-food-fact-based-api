@@ -1,0 +1,17 @@
+/food_details/bin
+/food_details/lib
+/food_details/__pycache__
+/food_details_api/__pycache__
+/food_details/migrations
+/utils/__pycache__
+/foodenv/
+pyvenv.cfg
+alter_table.py
+.pytest_cache
+data
+/food_details_api/__pycache__
+/food_details_api/food_details/__pycache__
+/food_details_api/food_details/migrations/__pycache__
+/food_details_api/food_details/tests/__pycache__
+/food_details_api/food_details_api/__pycache__
+/food_details_api/utils/__pycache__

@@ -1,0 +1,32 @@
+version: '3.8'
+
+services:
+  # Django application
+  django:
+    build:
+      context: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/food_details_api
+    depends_on:
+      - pgdb
+    networks:
+      - app_network
+    environment:
+      - DJANGO_SETTINGS_MODULE=food_details_api.settings
+    command: /entrypoint.sh
+
+  # PostgreSQL database
+  pgdb:
+    image: postgres:latest
+    container_name: pgdb
+    environment:
+      POSTGRES_DB: fooddetails
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres223
+    networks:
+      - app_network
+networks:
+  app_network:
+    driver: bridge

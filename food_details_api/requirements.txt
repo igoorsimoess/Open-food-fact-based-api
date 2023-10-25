@@ -1,0 +1,11 @@
+django>=4.0.0,<4.1.0
+djangorestframework
+pyyaml
+requests
+django-cors-headers
+psycopg2
+openfoodfacts
+psutil
+pytest
+pandas
+drf-yasg
